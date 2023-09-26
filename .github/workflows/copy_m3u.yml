@@ -1,0 +1,23 @@
+name: Copy m3u File
+
+on:
+  schedule:
+    - cron: '39 5 * * *' # 每天2:00执行
+
+jobs:
+  copy_m3u:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Install requests
+      run: pip install requests
+    - name: Check out repository
+      uses: actions/checkout@v2
+      
+    - name: Install dependencies
+      run: |
+        pip install requests
+        
+    - name: Copy m3u file
+      run: |
+        python copy_m3u.py
