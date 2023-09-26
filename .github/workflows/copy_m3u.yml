@@ -13,7 +13,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@main
   
-    - name: Setup Node.js version
+    - name: Setup Node.js 
       uses: actions/setup-node@v2
       with:
        node-version: '16'
