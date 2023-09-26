@@ -2,7 +2,7 @@ name: Copy m3u File
 
 on:
   schedule:
-    - cron: '10 6 * * *' # 每天2:00执行
+    - cron: '15 6 * * *' # 每天2:00执行
 runs:
   using: 'node20'
   pre: 'setup.js'
