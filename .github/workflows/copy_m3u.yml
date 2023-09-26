@@ -11,7 +11,7 @@ jobs:
     
     steps:
     - name: Check out repository
-      uses: actions/checkout@v2.4.3
+      uses: actions/checkout@v2.3.9
       with:
           node-version: 16 # 更新这一行，指定使用 Node16
       # 其他步骤...
