@@ -1,5 +1,6 @@
 name: Copy m3u File
-
+on:
+  workflow_dispatch:
 on:
   schedule:
     - cron: '32 6 * * *' # 每天2:00执行
