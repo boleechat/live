@@ -11,14 +11,18 @@ jobs:
     
     steps:
     - name: Check out repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v2.309.0
+    
+    - name: Setup Node.js version
+      uses: actions/setup-node@v2
       with:
-          node-version: 16 # 更新这一行，指定使用 Node16
-      # 其他步骤...
+       node-version: '16'
+       
     - name: Install dependencies
       run: |
-        pip install requests
+         pip3 install --upgrade pip
+         pip3 cache --timeout=600 pip
+         pip3 install requests
         
     - name: Copy m3u file
-      run: |
-        python copy_m3u.py
+      run: python ./copy_m3u.py
