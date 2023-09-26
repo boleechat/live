@@ -2,8 +2,12 @@ name: Copy m3u File
 
 on:
   schedule:
-    - cron: '5 6 * * *' # 每天2:00执行
-
+    - cron: '8 6 * * *' # 每天2:00执行
+runs:
+  using: 'node20'
+  pre: 'setup.js'
+  main: 'index.js'
+  post: 'cleanup.js'
 jobs:
   copy_m3u:
     runs-on: ubuntu-latest
@@ -11,7 +15,7 @@ jobs:
     steps:
     - name: Install requests
       run: pip install requests
-      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
+      
     - name: Check out repository
       uses: actions/checkout@v2
       
