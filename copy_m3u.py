@@ -15,6 +15,30 @@ def main():
     # 将包含"https://cntv.sbs/tv?auth"的内容替换为"https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth"
     content = content.replace('https://cntv.sbs/tv?auth', 'https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth')
     
+    # 获取源文件名
+    source_file = 'source.m3u' 
+
+    # 读取源文件内容
+    with open(source_file) as f:
+      source_content = f.read()
+  
+    # 打印源文件内容  
+    print("Source file content:")
+    print(source_content)
+
+    # 替换操作
+    # ...
+
+    # 获取目标文件名  
+    target_file = 'target.m3u'
+
+    # 读取目标文件内容  
+    with open(target_file) as f:
+      target_content = f.read()
+  
+    # 打印目标文件内容
+    print("Target file content after replacing:")  
+    print(target_content)
     # 将修改后的内容写入临时文件
     with open('globe.m3u', 'w') as file:
         file.write(content)
