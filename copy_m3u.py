@@ -18,7 +18,7 @@ def main():
   content = base64.b64encode(content.encode('utf-8'))
   
   headers = {'Content-Type': 'text/plain; charset=utf-8',
-             'Authorization': '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'}
+             'Authorization': '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'}
 
   response = requests.put(destination_url, data=content, headers=headers)
 
