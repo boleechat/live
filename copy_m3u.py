@@ -30,9 +30,7 @@ def main():
     headers = {
         'Authorization': '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',
     }
-    files = {
-        'file': ('globe.m3u', open('globe.m3u', 'rb')),
-    }
+    
     response = requests.put(destination_url, data=content, headers=headers)
     
     if response.status_code == 200:
