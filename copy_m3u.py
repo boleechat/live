@@ -13,10 +13,10 @@ def main():
 
   content = content.replace(content.split('\n')[0], '#EXTM3U')
   content = content.replace('https://cntv.sbs/tv?auth', 'https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth')
-
+  print(content)
   # base64编码content
   content = base64.b64encode(content.encode('utf-8'))
-  print(content)
+  
   headers = {'Content-Type': 'text/plain; charset=utf-8',
              'Authorization': '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'}
 
