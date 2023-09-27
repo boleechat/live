@@ -6,8 +6,8 @@ def main():
 
   token = os.environ['TOKEN'] # 获取TOKEN
 
-  source_url = '...'
-  destination_url = '...'
+  source_url = 'https://ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u'
+  destination_url = 'https://raw.githubusercontent.com/boleechat/live/main/globe.m3u'
 
   response = requests.get(source_url)
   content = response.text
@@ -17,7 +17,7 @@ def main():
   content = base64.b64encode(content.encode('utf-8'))  
 
   headers = {
-    'Content-Type': '...',
+    'Content-Type': 'text/plain; charset=utf-8',
     'Authorization': f'token {token}' 
   }
 
