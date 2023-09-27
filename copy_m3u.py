@@ -16,7 +16,7 @@ def main():
 
   # base64编码content
   content = base64.b64encode(content.encode('utf-8'))
-
+  print(content)
   headers = {'Content-Type': 'text/plain; charset=utf-8',
              'Authorization': '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'}
 
