@@ -19,7 +19,7 @@ jobs:
       run: pip install requests
       
     - name: Set TOKEN secret
-      run: echo "TOKEN=${secrets.TOKEN}" >> $GITHUB_ENV
+      run: echo "TOKEN=${{ secrets.TOKEN }}" >> $GITHUB_ENV
 
     - name: Run script
       run: python copy_m3u.py
