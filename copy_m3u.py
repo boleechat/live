@@ -14,10 +14,14 @@ def main():
     
     # 将包含"https://cntv.sbs/tv?auth"的内容替换为"https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth"
     content = content.replace('https://cntv.sbs/tv?auth', 'https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth')
-    
-    
+
+    headers = {'Content-Type': 'text/plain; charset=utf-8'}
+    content = content.encode('utf-8')
+    import json
+    content = json.dumps(content).encode('utf-8')
+    print(response.encoding)
     # 打印源文件内容  
-    print(content)
+    #print(content)
 
     # 替换操作
     # ...
