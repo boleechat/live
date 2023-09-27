@@ -23,3 +23,5 @@ jobs:
 
     - name: Run script
       run: python copy_m3u.py
+      env:
+        TOKEN: ${{ secrets.TOKEN }}
