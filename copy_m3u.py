@@ -1,7 +1,10 @@
 import requests
+import os
 import base64
 
 def main():
+
+  token = os.environ['TOKEN']
 
   source_url = 'https://ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u'
   destination_url = 'https://raw.githubusercontent.com/boleechat/live/main/globe.m3u'
@@ -9,16 +12,14 @@ def main():
   response = requests.get(source_url)
   content = response.text
 
-  # 替换内容
+  # content processing
 
-  content = content.replace(content.split('\n')[0], '#EXTM3U')
-  content = content.replace('https://cntv.sbs/tv?auth', 'https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth')
-  #print(content)
-  # base64编码content
   content = base64.b64encode(content.encode('utf-8'))
-  
-  headers = {'Content-Type': 'text/plain; charset=utf-8',
-             'Authorization': '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'}
+
+  headers = {
+    'Content-Type': 'text/plain; charset=utf-8',
+    'Authorization': f'token {token}'
+  }
 
   response = requests.put(destination_url, data=content, headers=headers)
 
