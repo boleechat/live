@@ -15,14 +15,7 @@ def main():
     # 将包含"https://cntv.sbs/tv?auth"的内容替换为"https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth"
     content = content.replace('https://cntv.sbs/tv?auth', 'https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth')
 
-    headers = {'Content-Type': 'text/plain; charset=utf-8'}
-    content = content.encode('utf-8')
-    import json
-    content = json.dumps(content).encode('utf-8')
-    print(response.encoding)
-    # 打印源文件内容  
-    #print(content)
-
+    
     # 替换操作
     # ...
 
@@ -35,6 +28,13 @@ def main():
         'Authorization': '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',
     }
     
+    # 读取文本内容直接使用
+    content = response.text
+
+    # 无需再做额外编码
+    headers = {'Content-Type': 'text/plain; charset=utf-8'}
+
+    # 直接作为字符串提交
     response = requests.put(destination_url, data=content, headers=headers)
     
     if response.status_code == 200:
