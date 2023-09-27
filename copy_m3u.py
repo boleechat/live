@@ -1,24 +1,24 @@
+import os 
 import requests
-import os
 import base64
 
 def main():
 
-  token = os.environ['TOKEN']
-  print (os.environ)
-  source_url = 'https://ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u'
-  destination_url = 'https://raw.githubusercontent.com/boleechat/live/main/globe.m3u'
+  token = os.environ['TOKEN'] # 获取TOKEN
+
+  source_url = '...'
+  destination_url = '...'
 
   response = requests.get(source_url)
   content = response.text
 
-  # content processing
+  # 替换内容
 
-  content = base64.b64encode(content.encode('utf-8'))
+  content = base64.b64encode(content.encode('utf-8'))  
 
   headers = {
-    'Content-Type': 'text/plain; charset=utf-8',
-    'Authorization': f'token {token}'
+    'Content-Type': '...',
+    'Authorization': f'token {token}' 
   }
 
   response = requests.put(destination_url, data=content, headers=headers)
