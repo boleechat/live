@@ -16,7 +16,7 @@ def main():
     content = content.replace('https://cntv.sbs/tv?auth', 'https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth')
     
     # 获取源文件名
-    source_file = 'source.m3u' 
+    source_file = 'globe.m3u' 
 
     # 读取源文件内容
     with open(source_file) as f:
