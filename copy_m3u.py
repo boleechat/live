@@ -5,7 +5,7 @@ import base64
 def main():
 
   token = os.environ['TOKEN']
-  print os.environ 
+  print (os.environ)
   source_url = 'https://ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u'
   destination_url = 'https://raw.githubusercontent.com/boleechat/live/main/globe.m3u'
 
