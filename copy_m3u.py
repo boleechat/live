@@ -26,8 +26,8 @@ def main():
   }
 
   response = requests.put(api_url, json=data, headers=headers)
-    print('Status code:', response.status_code)
-    print('Response:', response.json())
+  print('Status code:', response.status_code)
+  print('Response:', response.json())
   if response.status_code == 201:
     print('更新成功')
   else:
