@@ -12,8 +12,12 @@ def main():
   response = requests.get(source_url)
   content = response.text
 
-  # 替换内容
-
+  # 替换第一行为#EXTM3U
+  content = content.replace(content.split('\n')[0], '#EXTM3U')
+    
+  # 将包含"https://cntv.sbs/tv?auth"的内容替换为"https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth"
+  content = content.replace('https://cntv.sbs/tv?auth', 'https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth')
+  
   content = base64.b64encode(content.encode('utf-8')).decode('utf-8')
 
   headers = {
