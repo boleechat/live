@@ -85,6 +85,8 @@ https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&i
 https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=zjws
 #EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://live.fanmingming.com/tv/东南卫视.png" group-title="卫视",东南卫视
 https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=dnws
+#EXTINF:-1 tvg-id="海峡卫视" tvg-name="海峡卫视" tvg-logo="https://live.fanmingming.com/tv/海峡卫视.png" group-title="卫视",海峡卫视
+https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=hxws
 #EXTINF:-1 tvg-id="厦门卫视" tvg-name="厦门卫视" tvg-logo="https://live.fanmingming.com/tv/厦门卫视.png" group-title="卫视",厦门卫视
 https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=xmws
 #EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="卫视",广东卫视
@@ -101,18 +103,18 @@ https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&i
 https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=scws
 #EXTINF:-1 tvg-id="康巴卫视" tvg-name="康巴卫视" tvg-logo="https://live.fanmingming.com/tv/康巴卫视.png" group-title="卫视",康巴卫视
 https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=kbws
+#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://live.fanmingming.com/tv/海南卫视.png" group-title="卫视",海南卫视
+https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=hinws
+#EXTINF:-1 tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="https://live.fanmingming.com/tv/三沙卫视.png" group-title="卫视",三沙卫视
+https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=ssws
 #EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://live.fanmingming.com/tv/新疆卫视.png" group-title="卫视",新疆卫视
 https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=xjws
 #EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://live.fanmingming.com/tv/兵团卫视.png" group-title="卫视",兵团卫视
 https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=btws
 #EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://live.fanmingming.com/tv/西藏卫视.png" group-title="卫视",西藏卫视
 https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=xzws
-#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://live.fanmingming.com/tv/海南卫视.png" group-title="卫视",海南卫视
-https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=hinws
-#EXTINF:-1 tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="https://live.fanmingming.com/tv/三沙卫视.png" group-title="卫视",三沙卫视
-https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=ssws
-#EXTINF:-1 tvg-id="海峡卫视" tvg-name="海峡卫视" tvg-logo="https://live.fanmingming.com/tv/海峡卫视.png" group-title="卫视",海峡卫视
-https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=hxws
+#EXTINF:-1 tvg-id="西藏藏语卫视" tvg-name="西藏藏语卫视" tvg-logo="https://live.fanmingming.com/tv/西藏藏语卫视.png" group-title="卫视",西藏藏语卫视
+https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=xzzyws
 #EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://live.fanmingming.com/tv/CETV1.png" group-title="卫视",CETV1
 https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=cetv1
 #EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://live.fanmingming.com/tv/CETV2.png" group-title="卫视",CETV2
@@ -163,7 +165,7 @@ https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&i
 https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=cftx
 #EXTINF:-1 tvg-id="中国天气" tvg-name="中国天气" tvg-logo="https://live.fanmingming.com/tv/中国天气.png" group-title="数字",中国天气
 https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=zgtq
-#EXTINF:-1 tvg-id="梨园" tvg-name="梨园" tvg-logo="https://live.fanmingming.com/tv/河南梨园.png" group-title="数字",梨园频道
+#EXTINF:-1 tvg-id="梨园" tvg-name="梨园" tvg-logo="https://live.fanmingming.com/tv/河南梨园.png" group-title="数字",梨园
 https://pi.0472.org/tv/ly.php?auth=231013
 #EXTINF:-1 tvg-id="上视新闻" tvg-name="上视新闻" tvg-logo="https://live.fanmingming.com/tv/上视新闻.png" group-title="地方",上海新闻综合
 https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=shxwzh
@@ -171,6 +173,8 @@ https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&i
 https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=shds
 #EXTINF:-1 tvg-id="上海外语" tvg-name="上海外语" tvg-logo="https://live.fanmingming.com/tv/上海外语.png" group-title="地方",上海ICS外语
 https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=shics
+#EXTINF:-1 tvg-id="东方影视" tvg-name="东方影视" tvg-logo="https://live.fanmingming.com/tv/东方影视.png" group-title="地方",东方影视
+https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=dfys
 #EXTINF:-1 tvg-id="SITV七彩戏剧" tvg-name="SITV七彩戏剧" tvg-logo="https://live.fanmingming.com/tv/七彩戏剧.png" group-title="地方",七彩戏剧
 https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=qcxj
 #EXTINF:-1 tvg-id="上海第一财经" tvg-name="上海第一财经" tvg-logo="https://live.fanmingming.com/tv/上海第一财经.png" group-title="地方",第一财经
@@ -181,6 +185,8 @@ https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&i
 https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=dfcj
 #EXTINF:-1 tvg-id="上海教育" tvg-name="上海教育" tvg-logo="https://live.fanmingming.com/tv/上海教育.png" group-title="地方",上海教育
 https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=shjy
+#EXTINF:-1 tvg-id="东方购物" tvg-name="东方购物" tvg-logo="https://live.fanmingming.com/tv/东方购物.png" group-title="地方",东方购物
+https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=dfgw
 #EXTINF:-1 tvg-id="浦东电视台" tvg-name="浦东电视台" tvg-logo="https://live.fanmingming.com/tv/浦东电视台.png" group-title="地方",浦东电视台
 https://www.szqcom.repl.co/PLTV/tivihk.php?url=https://cntv.sbs/tv?auth=231013&id=pdtv
 #EXTINF:-1 tvg-id="福建综合" tvg-name="福建综合" tvg-logo="https://live.fanmingming.com/tv/福建综合.png" group-title="地方",福建综合
@@ -277,6 +283,24 @@ http://hls.live.cqccn.com/__cl/cg:live/__c/chcgqdyHD/__op/default/__f/index.m3u8
 http://hls.live.cqccn.com/__cl/cg:live/__c/chcdzdyHD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title="电影",CHC家庭影院
 http://hls.live.cqccn.com/__cl/cg:live/__c/chcjtyyHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-id="风云剧场" tvg-name="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="数字",风云剧场
+http://hls.live.cqccn.com/__cl/cg:live/__c/fyjcHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-id="风云音乐" tvg-name="风云音乐" tvg-logo="https://live.fanmingming.com/tv/风云音乐.png" group-title="数字",风云音乐
+http://hls.live.cqccn.com/__cl/cg:live/__c/fyyyHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-id="风云足球" tvg-name="风云足球" tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="数字",风云足球
+http://hls.live.cqccn.com/__cl/cg:live/__c/fyzqHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-id="央视台球" tvg-name="央视台球" tvg-logo="https://live.fanmingming.com/tv/央视台球.png" group-title="数字",央视台球
+http://hls.live.cqccn.com/__cl/cg:live/__c/ystqHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://live.fanmingming.com/tv/怀旧剧场.png" group-title="数字",怀旧剧场
+http://hls.live.cqccn.com/__cl/cg:live/__c/hjjcHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-id="第一剧场" tvg-name="第一剧场" tvg-logo="https://live.fanmingming.com/tv/第一剧场.png" group-title="数字",第一剧场
+http://hls.live.cqccn.com/__cl/cg:live/__c/diyijuchangHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-id="高尔夫网球" tvg-name="高尔夫网球" tvg-logo="https://live.fanmingming.com/tv/高尔夫网球.png" group-title="数字",高尔夫网球
+http://hls.live.cqccn.com/__cl/cg:live/__c/golfHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-id="文化精品" tvg-name="文化精品" tvg-logo="https://live.fanmingming.com/tv/文化精品.png" group-title="数字",文化精品
+http://hls.live.cqccn.com/__cl/cg:live/__c/yswhHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-id="兵器科技" tvg-name="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="数字",兵器科技
+http://hls.live.cqccn.com/__cl/cg:live/__c/bqkjHD/__op/default/__f/index.m3u8
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://live.fanmingming.com/tv/翡翠台.png" group-title="港澳",翡翠台
 https://pi.0472.org/tv/fct.php?auth=231013
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://live.fanmingming.com/tv/明珠台.png" group-title="港澳",明珠台
@@ -411,6 +435,8 @@ http://51.210.199.22/hls/stream.m3u8
 http://51.210.199.24/hls/stream.m3u8
 #EXTINF:-1 group-title="测试频道",Nostalgia
 http://51.210.199.20/hls/stream.m3u8
+#EXTINF:-1 group-title="测试频道",韩国-KBS World
+https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/01.m3u8
 #EXTINF:-1 group-title="测试频道",韩国-Arirang
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:-1 group-title="测试频道",韩国-EBS1
@@ -421,9 +447,7 @@ http://ebsonairios.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8
 http://ebsonairios.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
 #EXTINF:-1 group-title="测试频道",韩国-KCTV
 http://119.77.96.184:1935/chn05/chn05/chunklist_w1306745753.m3u8
-#EXTINF:-1 group-title="测试频道",韩国-MBC综合频道
-http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
-#EXTINF:-1 group-title="测试频道",韩国-NBS Korea Agricultural Broadc
+#EXTINF:-1 group-title="测试频道",韩国-NBS
 https://media.joycorp.co.kr:4443/live/live_720p/playlist.m3u8
 #EXTINF:-1 group-title="测试频道",日本购物1
 http://stream1.shopch.jp/HLS/out1/prog_index.m3u8
